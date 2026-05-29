@@ -6,12 +6,15 @@
 
 ## Тематические UCITS ETF (проверенные кандидаты из рисёча)
 
-| Инструмент | ISIN / тикер | Тема | В Revolut? | Триггер / заметка |
-|---|---|---|---|---|
-| VanEck Semiconductor UCITS | IE00BMC38736 / VVSM | Полупроводники, чипы для AI (TSMC, ASML, NVDA, Broadcom, Micron) | ❓ проверить | core тематики чипов |
-| Global X Artificial Intelligence UCITS | IE0000XTDDA8 / QAIU | AI + память/RAM (Samsung, SK hynix, Apple, TSMC) | ❓ проверить | покрывает RAM-производителей |
-| iShares MSCI China Tech UCITS | IE000NFR7C63 | Китайский tech (PDD, Tencent, Xiaomi, Alibaba) | ❓ проверить | китайская экспозиция |
-| _broad core (all-world UCITS)_ | _подобрать_ | Широкая база портфеля | ❓ проверить | фундамент под тематические сателлиты |
+| Инструмент | ISIN / тикер | AV data-тикер | Тема | В Revolut? | Триггер / заметка |
+|---|---|---|---|---|---|
+| VanEck Semiconductor UCITS | IE00BMC38736 / VVSM | `VVSM.DEX` (Xetra, EUR) ✅ | Полупроводники, чипы для AI (TSMC, ASML, NVDA, Broadcom, Micron) | ❓ проверить | core тематики чипов |
+| Global X Artificial Intelligence UCITS | IE0000XTDDA8 / QAIU | _разрешить SYMBOL_SEARCH_ | AI + память/RAM (Samsung, SK hynix, Apple, TSMC) | ❓ проверить | покрывает RAM-производителей |
+| iShares MSCI China Tech UCITS | IE000NFR7C63 | _разрешить SYMBOL_SEARCH_ | Китайский tech (PDD, Tencent, Xiaomi, Alibaba) | ❓ проверить | китайская экспозиция |
+| _broad core (all-world UCITS)_ | _подобрать_ | _разрешить SYMBOL_SEARCH_ | Широкая база портфеля | ❓ проверить | фундамент под тематические сателлиты |
+
+> **AV data-тикер** — символ для запроса котировок в Alpha Vantage (формат `ТИКЕР.DEX` для Xetra/EUR, `.LON` для Лондона).
+> Разрешается через `SYMBOL_SEARCH` при первом прогоне. Free-tier лимит — 25 запросов/день, не разрешать все сразу.
 
 ## Темы без подтверждённого UCITS-инструмента (нужен рисёч)
 
