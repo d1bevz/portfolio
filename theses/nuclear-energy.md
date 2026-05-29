@@ -1,6 +1,7 @@
 # Тезис: Ядерная энергетика (uranium + nuclear tech)
 
-- **Инструмент (дефолт):** VanEck Uranium & Nuclear Technologies UCITS — `IE000M7V94E1` (TER 0.55%, €2.3 млрд, Acc) · **В Revolut:** ❓ проверить
+- **Инструмент (выбран):** WisdomTree Uranium & Nuclear Energy UCITS — `IE0003BJ2JS4` / WNUC (TER 0.45%, €298 млн, 44 бумаги, Acc) · **В Revolut:** ✅ есть
+  - _VanEck Uranium & Nuclear (IE000M7V94E1) — в Revolut нет. NUKZ (IE0006WPPA00) — есть, но €2 млн AUM / запуск апр-2026 → риск закрытия, отклонён._
 - **Тема:** Энергетика — ядерная (и косвенно «next-gen»: SMR, реакторы)
 - **Статус:** кандидат (часть плана ребаланса €6k)
 - **Дата создания:** 2026-05-29
